@@ -1,0 +1,41 @@
+Target : Yearly Amount Spent \ اجمالي انفاق العميل سنويا
+
+
+Features  :  الأعمدة الرقمية اللي ممكن تأثر على فلوس العميل 
+
+	Avg. Session Length : متوسط مدة جلسة تصفح المتجر 
+
+		Time on App : الوقت المستغرق على تطبيق الموبايل
+
+	Time on Website : الوقت المستغرق على موقع الويب
+
+	Length of Membership : مدة عضوية العميل (بالسنين)، ودي عادةً بتكون أقوى عامل مؤثر
+ 
+		Text Data : (Email, Address, Avatar) => غالباً بتتجاهل أو بتتحذف لأنها بيانات تعريفية شخصية مش هتديك قيمة رياضية مباشرة في حساب الانحدار الخطي العادي 
+
+
+Business Question : إيه أكتر حاجة بتخلّي العملاء يصرفوا فلوس أكتر؟ هل تزويد الوقت على التطبيق أهم ولا على الموقع؟ وهل ولاء العميل وفترة عضويته هي الأساس؟ 
+
+
+What to do in Python =>>>>
+
+	
+	1) 	Data Preprocessing =>> خطوة التنظيف
+		
+	2)	EDA - Exploratory Data Analysis => خطوة الاستكشاف البصري 
+
+
+	3)	Train/Test Split =>> تقسيم البيانات 
+
+
+	4)	Model Training  =>> بناء الموديل وتدريبه 
+
+
+
+	5)	Evaluation => تقييم الموديل 
+		
+			Mean Absolute Error (MAE)
+ 			Mean Squared Error (MSE)
+			R-squared Score
+			
+
